@@ -11,6 +11,11 @@ public class AdminHomePage
 	
 	@FindBy(xpath="//a[text()='Amenities']")
 	public WebElement amenities;
+	//Page factory Test
+
+	@FindBy(xpath="//a[text()='Amenities1']")
+	public WebElement amenities1;
+	//Page factory Test
 	
 	public AmenitiesListPage clickAmenities()
 	{
