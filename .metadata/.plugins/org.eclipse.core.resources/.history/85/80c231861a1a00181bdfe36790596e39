@@ -1,0 +1,30 @@
+package StringExe;
+
+public class StringReverseExe {
+
+	public static void main(String[] args) {
+		wordReverse();
+	}
+	
+	public static void wordReverse()
+	{
+		String str = "INDIA";
+		char[] ch = str.toCharArray();
+		int len = ch.length;
+		System.out.println(len);
+		
+		for(int i=len; i>=0; i--)
+		{
+			System.out.print(ch[i]);
+		}
+	}
+	public static void sentenceReverse()
+	{
+		
+	}
+	public static void sentWordReverse()
+	{
+		
+	}
+
+}

@@ -1,0 +1,49 @@
+package StringExe;
+
+public class StringReverseExe {
+
+	public static void main(String[] args) {
+		//wordReverse();
+		//sentenceReverse();
+		sentWordReverse();
+	}
+	
+	public static void wordReverse()
+	{
+		String str = "INDIA";
+		char[] ch = str.toCharArray();
+		int len = ch.length;
+				
+		for(int i=len-1; i>=0; i--)
+		{
+			System.out.print(ch[i]);
+		}
+	}
+	public static void sentenceReverse()
+	{
+		String sen = "My Name is Khan";
+		//KhanisNameMy
+		String[] str = sen.split(" ");
+		for(int i=str.length-1; i>=0; i--)
+		{
+			System.out.print(str[i]+" ");
+		}
+	}
+	public static void sentWordReverse()
+	{
+		String sen = "My Name is Khan";
+		//nahK si emaN yM
+		
+		
+		//KhanisNameMy
+		String[] str = sen.split(" ");
+		for(int i=str.length-1; i>=0; i--)
+		{
+			System.out.print(str[i]+" ");
+		}
+		
+		
+		
+	}
+
+}

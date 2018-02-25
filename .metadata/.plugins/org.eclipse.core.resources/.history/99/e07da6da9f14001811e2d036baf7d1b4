@@ -1,0 +1,27 @@
+package com.PageFactroyTest;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class LoginPage 
+{
+	@FindBy(id="hotelCodeId")
+	public WebElement hotelID;
+	
+	@FindBy(id="userNameId")
+	public WebElement email;
+	
+	@FindBy(name="password")
+	public WebElement password;
+	
+	@FindBy(name="Submit52")
+	public WebElement login;
+	
+	public void login()
+	{
+		
+	}
+	
+	
+
+}

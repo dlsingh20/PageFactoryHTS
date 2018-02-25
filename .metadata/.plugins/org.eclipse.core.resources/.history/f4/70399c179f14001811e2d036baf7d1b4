@@ -1,0 +1,5 @@
+package com.PageFactroyTest;
+
+public class BasePage {
+
+}

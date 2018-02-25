@@ -1,0 +1,16 @@
+package com.PageFactroyTest;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class AmenitiesListPage 
+{
+	@FindBy(xpath="//a[text()='| Logout']")
+	public WebElement logout;
+	
+	public void logoutAdmin()
+	{
+		logout.click();
+	}
+
+}

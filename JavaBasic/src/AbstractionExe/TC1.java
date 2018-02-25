@@ -1,0 +1,13 @@
+package AbstractionExe;
+
+public class TC1 implements Interface1 {
+
+	public void test()
+	{
+		System.out.println("Test Method");
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,33 @@
+package com.PageFactroyTest;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.PageFactory;
+
+
+
+public class BasePage 
+{
+	public static WebDriver driver;
+	
+	public static LoginPage openAdmin()
+	{
+		System.setProperty("webdriver.gecko.driver", "F:\\DD1\\Software\\JarsAndAPIs\\GeckoDriver\\geckodriver64b.exe");
+		driver = new FirefoxDriver();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.get("http://livestable.stayez.com/admine/");
+		
+		LoginPage LP = PageFactory.initElements(driver, LoginPage.class);
+		return LP;
+	}
+	
+	public static void jsClick(WebElement ele)
+	{
+		((JavascriptExecutor)driver).executeScript("arguments[0].click();", ele);
+	}
+
+}

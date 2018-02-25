@@ -1,0 +1,16 @@
+package AbstractionExe;
+
+public class AbClass2 {
+	AbClass2()
+	{
+		System.out.println("Class Constructor");
+	}
+	
+	 abstract void test2();
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

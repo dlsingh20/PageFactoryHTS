@@ -1,0 +1,9 @@
+package AbstractionExe;
+
+public class TestClass2 extends AbClass2{
+
+	public static void main(String[] args) {
+		
+	}
+
+}

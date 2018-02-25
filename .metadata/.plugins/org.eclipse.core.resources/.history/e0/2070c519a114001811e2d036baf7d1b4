@@ -1,0 +1,16 @@
+package com.PageFactroyTest;
+
+import org.testng.annotations.Test;
+
+public class TestClass 
+{
+	@Test
+	public void login()
+	{
+		BasePage.openAdmin();
+		
+		LoginPage LP = new LoginPage();
+		LP.login();
+	}
+
+}

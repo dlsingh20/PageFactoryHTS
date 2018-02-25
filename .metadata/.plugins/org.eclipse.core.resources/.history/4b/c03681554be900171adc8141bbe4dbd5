@@ -1,0 +1,85 @@
+package JavaBasic;
+
+public class ForExe {
+
+	public static void main(String[] args) 
+	{		
+		//forTest();
+		//printStar();
+		//printStar2();
+		printStar3();
+	}
+	
+	public static void forTest()
+	{
+		int t=6;
+		for(int a=1; a<=t; a++)
+		{
+			System.out.println("table of "+ a);
+			//System.out.println();
+			for(int i=1; i<=10; i++)
+			{
+			
+				System.out.print(a*i+" ");
+			}
+			System.out.println();
+			System.out.println();
+		}
+	}
+	
+	public static void printStar()
+	{
+		int t=6;
+		for(int a=1; a<=t; a++)
+		{
+			
+			for(int i=1; i<=a; i++)
+			{			
+				System.out.print("*");
+			}
+			System.out.println();
+			
+		}
+	
+	}
+	
+	public static void printStar2()
+	{
+		int t=5;
+		for(int a=t; a>=1;a-- )
+		{
+			
+			for(int i=a; i>=1; i--)
+			{
+			
+				System.out.print("*"+" ");
+			}
+			System.out.println();
+			
+		}
+	
+	}
+	
+	public static void printStar3()
+	{
+		
+		//Not completed
+		int t=6;
+		int s = t/2;
+		for(int i=t; i>=1;i--)
+		{
+			
+			for(int j=s; j>=1; j--)
+			{
+				System.out.print(" ");
+			}
+			
+			for(int k=1; k<=i; k++)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+	
+}

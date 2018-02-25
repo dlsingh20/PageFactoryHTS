@@ -1,0 +1,11 @@
+package com.PageFactroyTest;
+
+public class TestClass 
+{
+	@Test
+	public void login()
+	{
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package AbstractionExe;
+
+public class TC1 implements Interface1 {
+
+	void test()
+	{
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

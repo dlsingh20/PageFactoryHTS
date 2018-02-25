@@ -1,0 +1,34 @@
+package AbstractionExe;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.HashMap;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class HashmapTest {
+	
+	public void readExcel(int r) throws IOException
+	{
+		FileInputStream fis = new FileInputStream(new File(""));
+		XSSFWorkbook wb = new XSSFWorkbook(fis);
+		XSSFSheet sh = wb.getSheetAt(0);
+		
+		Row row = sh.getRow(r);
+		
+		
+		HashMap<String, String> HM = new HashMap<>();
+		
+		
+		
+	}
+	
+
+	public static void main(String[] args) {
+		
+	}
+
+}

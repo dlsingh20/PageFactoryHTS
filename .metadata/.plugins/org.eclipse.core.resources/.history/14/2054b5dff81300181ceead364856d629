@@ -1,0 +1,13 @@
+package AbstractionExe;
+
+public class TestClass2 extends AbClass2{
+	void testAbstract()
+	{
+		System.out.println("Testing Test Abstract");
+	}
+	public static void main(String[] args) {
+		AbClass1 ab2 = new AbClass2();
+		
+	}
+
+}

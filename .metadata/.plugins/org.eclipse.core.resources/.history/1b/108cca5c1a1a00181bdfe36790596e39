@@ -1,0 +1,22 @@
+package StringExe;
+
+public class StringReverseExe {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	public static void wordReverse()
+	{
+		
+	}
+	public static void sentenceReverse()
+	{
+		
+	}
+	public static void sentWordReverse()
+	{
+		
+	}
+
+}

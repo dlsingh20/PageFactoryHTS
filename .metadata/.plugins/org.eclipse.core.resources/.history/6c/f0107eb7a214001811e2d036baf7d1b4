@@ -1,0 +1,21 @@
+package com.PageFactroyTest;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class AdminHomePage 
+{
+	@FindBy(id="flip")
+	public WebElement viewReport;
+	
+	@FindBy(xpath="//a[text()='Amenities']")
+	public WebElement amenities;
+	
+	public void clickAmenities()
+	{
+		amenities.click();
+	}
+
+	
+	
+}

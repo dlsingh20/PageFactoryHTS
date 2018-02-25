@@ -1,0 +1,15 @@
+package AbstractionExe;
+
+public abstract class AbClass2 
+{
+	AbClass2()
+	{
+		System.out.println("Class Constructor");
+	}
+	abstract void testAbstract();
+
+	public static void main(String[] args) {
+	
+	}
+
+}

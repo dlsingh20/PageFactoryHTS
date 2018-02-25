@@ -1,0 +1,15 @@
+package com.PageFactroyTest;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class TestClass 
+{
+	@Test
+	public void login()
+	{
+		WebDriver driver = new FirefoxDriver();
+		
+	}
+
+}

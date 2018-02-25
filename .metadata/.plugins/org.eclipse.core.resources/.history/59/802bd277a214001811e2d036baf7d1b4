@@ -1,0 +1,12 @@
+package com.PageFactroyTest;
+
+import org.openqa.selenium.WebElement;
+
+public class AdminHomePage 
+{
+	@FindBy(id="flip")
+	public WebElement viewReport;
+	
+	
+
+}
